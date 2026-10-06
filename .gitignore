@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+
+# Runtime state: the agent's sandbox and its persistent memory
+workspace/*
+!workspace/.gitkeep
+memory.md
